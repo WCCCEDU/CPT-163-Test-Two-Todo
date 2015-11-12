@@ -27,7 +27,7 @@ public class TodoList {
   public Todo findTodoByIndex(int index){
 	return this.todoList.get(index);
   }
-  
+
   public void completeTodoByIndex(int index){
 	this.findTodoByIndex(index).complete();
   }
